@@ -115,6 +115,7 @@ export function AvatarStep({
                   source={c.imageUrl}
                   placeholder={fallbackImage(gender, c.bodyType)}
                   contentFit="contain"
+                  transition={0}
                   className="w-full h-full bg-transparent"
                 />
                 {active && (
@@ -138,6 +139,7 @@ export function AvatarStep({
               <Image
                 source={currentAvatarUrl!}
                 contentFit="contain"
+                transition={0}
                 className="w-full h-full bg-transparent"
               />
               {currentActive && (
@@ -173,6 +175,7 @@ export function AvatarStep({
             <Image
               source={uploadedUri}
               contentFit="contain"
+              transition={0}
               className="flex-1 w-full bg-transparent"
             />
           </>
@@ -194,6 +197,7 @@ export function AvatarStep({
               source={explicitlySelected.imageUrl}
               placeholder={fallbackImage(gender, explicitlySelected.bodyType)}
               contentFit="contain"
+              transition={0}
               className="flex-1 w-full bg-transparent"
             />
           </>
@@ -206,6 +210,7 @@ export function AvatarStep({
             <Image
               source={currentAvatarUrl}
               contentFit="contain"
+              transition={0}
               className="flex-1 w-full bg-transparent"
             />
           </>
@@ -218,6 +223,7 @@ export function AvatarStep({
               source={fallbackChar.imageUrl}
               placeholder={fallbackImage(gender, fallbackChar.bodyType)}
               contentFit="contain"
+              transition={0}
               className="flex-1 w-full bg-transparent"
             />
           </>
