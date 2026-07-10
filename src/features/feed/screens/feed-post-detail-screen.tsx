@@ -98,7 +98,7 @@ function FeedPostDetailContent({
           onPress={() => router.push({ pathname: '/user/[userId]', params: { userId } })}
         >
           {(post.user.height != null || post.user.weight != null) && (
-            <Text variant="caption" className="text-md leading-none">
+            <Text variant="caption" className="text-md leading-normal mt-[-0.3rem]">
               {[
                 post.user.height != null ? `${post.user.height}cm` : null,
                 post.user.weight != null ? `${post.user.weight}kg` : null,
