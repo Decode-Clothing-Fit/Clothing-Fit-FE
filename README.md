@@ -5,6 +5,14 @@
 
 ---
 
+## 발표 영상
+
+https://github.com/user-attachments/assets/e955b5d7-457e-48b0-9d3d-032ac2b9eb17
+
+> 원본 화질(37MB): [docs/발표자료.mp4](docs/발표자료.mp4)
+
+---
+
 ## 기술 스택
 
 | 구분       | 사용                                                   |
